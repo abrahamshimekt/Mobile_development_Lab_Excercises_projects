@@ -12,6 +12,7 @@ class Lab2_assingment extends StatefulWidget {
 }
 
 class _Lab2_assingmentState extends State<Lab2_assingment> {
+  final is_stared = false;
   final List<Widget> _images = [
     Container(
         child: Stack(children: [
