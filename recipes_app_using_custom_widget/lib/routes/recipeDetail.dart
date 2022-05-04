@@ -59,7 +59,7 @@ class _RecipeDetailState extends State<RecipeDetail> {
                     child: Text("Order now",
                         style:
                             TextStyle(color: Colors.tealAccent, fontSize: 20)),
-                    onPressed: () {Navigator.of(context)?.pop();},
+                    onPressed: () {Navigator.of(context).pop();},
                   )
                 ]))));
   }
